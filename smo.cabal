@@ -1,0 +1,19 @@
+Name:                smo
+Version:             0.1
+License:             MIT
+Description:         
+  SMO algorithm for training a support vector machine
+Synopsis:            SMO algorithm for training a support vector machine
+Author:              Philipp Balzarek
+Maintainer:          p.balzarek@googlemail.com
+Stability:           experimental
+License-File:        LICENSE
+Category:            Machine Learning
+Build-Type:          Simple
+Cabal-Version:       >= 1.6
+
+Library
+  Build-Depends:     base, random, mtl, array
+  Exposed-modules:   MachineLearning.SMO
+  ghc-options:       -Wall -O2
+  hs-source-dirs:    src
